@@ -1076,5 +1076,50 @@ export default function Content({ id, clickEvent }) {
 					</p>
 				</>
 			);
+		case 20:
+			return (
+				<>
+					<p>Querida Monna,</p>
+					<p>
+						Qué mal que tu carga de trabajo haya aumentado de nuevo.
+						Si necesitas volver y descansar tu sabes muy bien que
+						siempre tienes tu lugar aquí junto a mi. Muy pronto
+						volveremos a vernos y esta vez no me voy a separar de
+						ti. Ya le he dicho a todos que la decisión está tomada,
+						me voy a{' '}
+						<strong
+							onClick={() => {
+								clickEvent(8);
+							}}
+						>
+							México
+						</strong>
+						. Tu{' '}
+						<strong
+							onClick={() => {
+								clickEvent(4);
+							}}
+						>
+							mamá
+						</strong>{' '}
+						se volvió loca jajajaja. Pero todos están felices por
+						nosotros. En cuanto acabe los últimos trabajos nos
+						ponemos de acuerdo para planear mi mudanza.
+					</p>
+					<p>
+						¡Qué buena idea la de tu amigo! Me parece increíble
+						simplemente pensar que podré oír tu voz todo el tiempo
+						¡Que genial! Además es cierto que con tantos mails que
+						uno envía y recibe es hasta difícil no perderse en la
+						cantidad inmensa de texto. Aquí tienes el número de casa
+						+34095527081
+					</p>
+					<p>
+						Un abrazo muy fuerte,
+						<br />
+						Paco.
+					</p>
+				</>
+			);
 	}
 }
